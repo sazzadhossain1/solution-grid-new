@@ -1,14 +1,34 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./App.css";
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Main from "./LayOut/Main";
+import Home from "./components/Home/Home";
 
 function App() {
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Main></Main>,
+      children: [
+        {
+          path: "/",
+          element: <Home></Home>,
+        },
+        {
+          path: "/home",
+          element: <Home></Home>,
+        },
+      ],
+    },
+  ]);
   return (
     <div className="App">
-      <h1>This is app</h1>
-      <FontAwesomeIcon icon={faArrowDown} />
+      <RouterProvider router={router}></RouterProvider>
     </div>
   );
 }
 
 export default App;
+
+// https://www.vservices.com/ ai site er moto kore create korte hobe.
