@@ -30,5 +30,3 @@ function App() {
 }
 
 export default App;
-
-// https://www.vservices.com/ ai site er moto kore create korte hobe.
