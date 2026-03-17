@@ -4,60 +4,87 @@
   background-position: center;
   background-size: cover;
   color: white;
-  /* margin-top: -21px; */
   padding: 20px;
+  text-align: center;
 }
+
 .banner_grid_div {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  width: 55%;
+  width: 50%;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 30px;
+  gap: 0px; /* spacing between cards */
 }
+
 .banner_icon {
   font-size: 70px;
 }
+
 .banner_grid_div a {
   text-decoration: none;
   color: white;
 }
-.banner_cart_one {
-  background-color: coral;
+
+/* COMMON CARD STYLE */
+.banner_card {
   padding: 35px;
-}
-.banner_cart_two {
-  background-color: turquoise;
-  padding: 35px;
-}
-.banner_cart_three {
-  background-color: slateblue;
-  padding: 35px;
-}
-.banner_cart_four {
-  background-color: deepskyblue;
-  padding: 35px;
-}
-.banner_cart_five {
-  background-color: orangered;
-  padding: 35px;
-}
-.banner_cart_six {
-  background-color: deeppink;
-  padding: 35px;
-}
-.banner_cart_saven {
-  background-color: #4cb134;
-  padding: 35px;
-}
-.banner_cart_eight {
-  background-color: darkblue;
-  padding: 35px;
+  position: relative;
+  transition:
+    transform 1s ease,
+    z-index 0.3s;
+  cursor: pointer;
 }
 
+/* HOVER EFFECT */
+.banner_card:hover {
+  transform: scale(1.1);
+  z-index: 10;
+}
+
+/* COLORS */
+.banner_cart_one {
+  background-color: coral;
+}
+
+.banner_cart_two {
+  background-color: turquoise;
+}
+
+.banner_cart_three {
+  background-color: slateblue;
+}
+
+.banner_cart_four {
+  background-color: deepskyblue;
+}
+
+.banner_cart_five {
+  background-color: orangered;
+}
+
+.banner_cart_six {
+  background-color: deeppink;
+}
+
+.banner_cart_saven {
+  background-color: #4cb134;
+}
+
+.banner_cart_eight {
+  background-color: darkblue;
+}
+
+/* BUTTON */
 .banner_link_btn {
   text-decoration: none;
   color: black;
   font-size: 25px;
+}
+.banner_btn_parent_div {
+  background-color: red;
+  width: 20%;
+  margin: auto;
 }
 .banner_btn_div {
   background-image: linear-gradient(
@@ -65,9 +92,13 @@
     rgb(255, 214, 94) 0%,
     rgb(254, 191, 4) 100%
   );
-  width: 20%;
+  width: 100%;
   padding: 10px;
   margin: auto;
   margin-top: 30px;
   font-weight: 500;
+}
+.banner_link_btn {
+  /* width: 20%; */
+  background-color: red;
 }
