@@ -1,0 +1,73 @@
+.banner_parent_div {
+  background-image: url("../../accets/bannerPhoto/bannerPhoto.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  /* margin-top: -21px; */
+  padding: 20px;
+}
+.banner_grid_div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 55%;
+  margin: auto;
+  margin-top: 50px;
+}
+.banner_icon {
+  font-size: 70px;
+}
+.banner_grid_div a {
+  text-decoration: none;
+  color: white;
+}
+.banner_cart_one {
+  background-color: coral;
+  padding: 35px;
+}
+.banner_cart_two {
+  background-color: turquoise;
+  padding: 35px;
+}
+.banner_cart_three {
+  background-color: slateblue;
+  padding: 35px;
+}
+.banner_cart_four {
+  background-color: deepskyblue;
+  padding: 35px;
+}
+.banner_cart_five {
+  background-color: orangered;
+  padding: 35px;
+}
+.banner_cart_six {
+  background-color: deeppink;
+  padding: 35px;
+}
+.banner_cart_saven {
+  background-color: #4cb134;
+  padding: 35px;
+}
+.banner_cart_eight {
+  background-color: darkblue;
+  padding: 35px;
+}
+
+.banner_link_btn {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+.banner_btn_div {
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 214, 94) 0%,
+    rgb(254, 191, 4) 100%
+  );
+  width: 20%;
+  padding: 10px;
+  margin: auto;
+  margin-top: 30px;
+  font-weight: 500;
+}
