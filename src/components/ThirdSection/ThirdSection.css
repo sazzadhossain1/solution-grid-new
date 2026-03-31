@@ -1,0 +1,52 @@
+.thirdSection_parent_div {
+  margin-top: 130px;
+}
+.thirdSection_parent_div img {
+  width: 100%;
+}
+.thirdSection_text_div {
+  text-align: left;
+  width: 40%;
+  margin: auto;
+  margin-top: -470px;
+  background-color: white;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: 10px solid #41c6fa;
+}
+.thirdSection_text_div h2 {
+  color: #007eff;
+  font-size: 25px;
+}
+.thirdSection_first_p {
+  font-weight: 700;
+  margin-bottom: -10px;
+}
+.thirdSection_second_p {
+  color: rgb(75, 75, 75);
+}
+.thirdSection_third_p {
+  color: rgb(75, 75, 75);
+}
+.thirdSection_text_div ul li {
+  margin-bottom: 20px;
+  color: rgb(75, 75, 75);
+}
+.thirdSection_text_div ul li::marker {
+  color: #41c6fa;
+}
+.thirdSection_text_div button {
+  border: none;
+  background: #41c6fa;
+  background: linear-gradient(
+    90deg,
+    rgba(65, 198, 250, 1) 15%,
+    rgba(69, 125, 245, 1) 66%
+  );
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  width: 30%;
+}

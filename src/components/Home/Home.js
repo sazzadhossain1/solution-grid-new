@@ -3,6 +3,7 @@ import "./Home.css";
 import Banner from "../Banner/Banner";
 import FirstSection from "../FirstSection/FirstSection";
 import SecondSection from "../SecondSection/SecondSection";
+import ThirdSection from "../ThirdSection/ThirdSection";
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <Banner></Banner>
       <FirstSection></FirstSection>
       <SecondSection></SecondSection>
+      <ThirdSection></ThirdSection>
     </div>
   );
 };
