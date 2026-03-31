@@ -1,0 +1,16 @@
+.secondSection_parent_div {
+  margin-top: 50px;
+}
+.secondSection_grid_div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 75%;
+  gap: 50px;
+  margin: auto;
+}
+.secondSection_grid_div div img {
+  width: 100%;
+}
+.secondSection_grid_div div {
+  text-align: left;
+}
