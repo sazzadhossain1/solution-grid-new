@@ -81,11 +81,7 @@ const Banner = () => {
       </div>
 
       <div className="banner_btn_parent_div">
-        <Link
-          className="banner_link_btn"
-          to="https://www.vservices.com/"
-          target="_blank"
-        >
+        <Link className="banner_link_btn" to="" target="_blank">
           <div className="banner_btn_div">Hear from an expert</div>
         </Link>
       </div>

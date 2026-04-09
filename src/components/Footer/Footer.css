@@ -95,7 +95,8 @@
   padding-right: 11px;
 }
 .footer_logo {
-  width: 30%;
+  width: 20%;
+  padding-bottom: 10px;
 }
 .footer_logo_second_flex_div {
   display: flex;
