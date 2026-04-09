@@ -85,9 +85,6 @@ const Banner = () => {
           <div className="banner_btn_div">Hear from an expert</div>
         </Link>
       </div>
-      <svg width="200" height="200" viewBox="0 0 720 540">
-        <path className="st0" d="M0,28l45,477l648,24L714,0L0,28z" />
-      </svg>
     </div>
   );
 };

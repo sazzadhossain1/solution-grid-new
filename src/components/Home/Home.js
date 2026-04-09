@@ -10,8 +10,8 @@ import FifthSection from "../FifthSection/FifthSection";
 const Home = () => {
   return (
     <div>
-      {/* <Banner></Banner>
-      <FirstSection></FirstSection>
+      <Banner></Banner>
+      {/* <FirstSection></FirstSection>
       <SecondSection></SecondSection>
       <ThirdSection></ThirdSection> */}
       {/* <ForthSection></ForthSection> */}
