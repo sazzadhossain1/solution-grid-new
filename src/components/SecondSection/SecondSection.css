@@ -14,3 +14,18 @@
 .secondSection_grid_div div {
   text-align: left;
 }
+@media screen and (max-width: 1300px) {
+  .secondSection_grid_div {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 1060px) {
+  .secondSection_grid_div {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .secondSection_grid_div {
+    grid-template-columns: 1fr;
+  }
+}
