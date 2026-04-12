@@ -48,6 +48,7 @@
   color: #007eff;
   font-size: 16px;
   cursor: pointer;
+  margin-top: 20px;
 }
 .firstSection_btn1:hover {
   background: #fa4141;
@@ -67,6 +68,7 @@
   color: #007eff;
   font-size: 16px;
   cursor: pointer;
+  margin-top: 20px;
 }
 .firstSection_btn2:hover {
   background: #414afa;
@@ -77,4 +79,44 @@
   );
   color: white;
   transition: ease-in-out 0.4s;
+}
+
+@media screen and (max-width: 1536px) {
+  .firstSection_first_p {
+    width: 75%;
+  }
+
+  .firstPhoto {
+    width: 90%;
+  }
+
+  .secondPhoto {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1097px) {
+  .firstSection_first_p {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .fistSection_grid_div {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 85%;
+  }
+  .firstSection_first_cart_div {
+    margin-bottom: 30px;
+  }
+  svg {
+    display: none;
+  }
+  .firstPhoto {
+    position: relative;
+    width: 100%;
+  }
+  .secondPhoto {
+    position: relative;
+    width: 100%;
+  }
 }
