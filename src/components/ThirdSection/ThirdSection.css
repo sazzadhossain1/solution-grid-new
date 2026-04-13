@@ -10,7 +10,7 @@
   margin: auto;
   margin-top: -470px;
   background-color: white;
-  padding: 20px;
+  padding: 30px;
   position: relative;
   z-index: 1;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -22,13 +22,16 @@
 }
 .thirdSection_first_p {
   font-weight: 700;
-  margin-bottom: -10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 .thirdSection_second_p {
   color: rgb(75, 75, 75);
+  margin-bottom: 10px;
 }
 .thirdSection_third_p {
   color: rgb(75, 75, 75);
+  margin-bottom: 10px;
 }
 .thirdSection_text_div ul li {
   margin-bottom: 20px;
@@ -49,4 +52,42 @@
   padding: 12px;
   font-size: 16px;
   width: 30%;
+}
+
+@media screen and (max-width: 1536px) {
+  .thirdSection_parent_div {
+    margin-top: 200px;
+  }
+  .thirdSection_text_div {
+    width: 50%;
+    margin-top: -450px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .thirdSection_parent_div {
+    margin-top: 230px;
+  }
+  .thirdSection_text_div {
+    width: 65%;
+    margin-top: -400px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .thirdSection_parent_div {
+    margin-top: 50px;
+  }
+  .thirdSection_text_div {
+    width: 100%;
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 423px) {
+  .thirdSection_text_div button {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 286px) {
+  .thirdSection_text_div button {
+    width: 70%;
+  }
 }
