@@ -8,7 +8,9 @@ import { Link } from "react-router-dom";
 const FifthSection = () => {
   return (
     <div className="fifthSection_parent_div">
-      <h2>Subscribe or Follow us for latest updates</h2>
+      <h2 className="fifthSection_title">
+        Subscribe or Follow us for latest updates
+      </h2>
       <p className="fifthSection_first_p">
         vServices where technology meets artistic imagination
       </p>
@@ -30,7 +32,7 @@ const FifthSection = () => {
               <p>017XXXXXXXX</p>
             </div>
           </div>
-          <div>
+          <div className="fifthSection_or_div">
             <div className="fifthSection_blank_div"></div>
             <p className="or">OR</p>
             <div className="fifthSection_blank_div"></div>
@@ -52,11 +54,11 @@ const FifthSection = () => {
             id=""
             placeholder="Email"
           />
-          <p>
-            <input type="checkbox" name="" id="" />
-            Please click here if you would like to receive information about our
-            services, products and exclusive offers through email. You can
-            Unsubscribe at any time. Read our Privacy Policy
+          <p className="fifthSection_checkbox_p">
+            <input type="checkbox" name="" id="" /> Please click here if you
+            would like to receive information about our services, products and
+            exclusive offers through email. You can Unsubscribe at any time.
+            Read our Privacy Policy
           </p>
           <div className="fifthSection_btn_flex_div">
             <Link>
