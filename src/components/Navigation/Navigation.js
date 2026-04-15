@@ -101,7 +101,7 @@ const Navigation = () => {
             </p>
 
             <div className="nav_phone">
-              <span>017 XXX XXX XX</span>
+              <span>+880179.359.6432</span>
             </div>
           </div>
         </div>
@@ -117,28 +117,22 @@ const Navigation = () => {
 
           <ul className={menuOpen ? "nav_menu active" : "nav_menu"}>
             <li>
-              <FontAwesomeIcon icon={faEnvelope} /> Our Services
+              <FontAwesomeIcon icon={faEnvelope} /> Home
             </li>
             <li>
-              <FontAwesomeIcon icon={faEnvelope} /> Start-ups
+              <FontAwesomeIcon icon={faEnvelope} /> About
             </li>
             <li>
-              <FontAwesomeIcon icon={faEnvelope} /> Existing Business
+              <FontAwesomeIcon icon={faEnvelope} /> Services
             </li>
             <li>
-              <FontAwesomeIcon icon={faEnvelope} /> Digital Marketing
+              <FontAwesomeIcon icon={faEnvelope} /> Portfolio
             </li>
             <li>
-              <FontAwesomeIcon icon={faEnvelope} /> eCommerce
+              <FontAwesomeIcon icon={faEnvelope} /> Contact
             </li>
             <li>
-              <FontAwesomeIcon icon={faEnvelope} /> Mobile App
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faEnvelope} /> ERP Solution
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faEnvelope} /> Video Animation
+              <FontAwesomeIcon icon={faEnvelope} /> Login
             </li>
           </ul>
         </div>

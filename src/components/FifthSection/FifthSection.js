@@ -12,7 +12,7 @@ const FifthSection = () => {
         Subscribe or Follow us for latest updates
       </h2>
       <p className="fifthSection_first_p">
-        vServices where technology meets artistic imagination
+        Solution grid where technology meets artistic imagination
       </p>
 
       <div className="fifthSection_grid_div">

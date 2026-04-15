@@ -18,7 +18,7 @@ const ThirdSection = () => {
           standards
         </p>
         <p className="thirdSection_third_p">
-          At vServices, we follow and adhere to the following international
+          At Solution grid, we follow and adhere to the following international
           quality standards and requirements to deliver your desired services in
           a cost-effective and timely manner:
         </p>
@@ -39,7 +39,7 @@ const ThirdSection = () => {
           </li>
         </ul>
         <Link>
-          <button>Contact Us</button>
+          <button>Book a Free Consultation</button>
         </Link>
       </div>
     </div>

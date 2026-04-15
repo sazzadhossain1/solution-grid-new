@@ -35,6 +35,7 @@
     transform 1s ease,
     z-index 0.3s;
   cursor: pointer;
+  height: 200px;
 }
 
 /* HOVER EFFECT */

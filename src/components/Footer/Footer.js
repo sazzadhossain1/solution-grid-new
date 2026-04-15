@@ -116,7 +116,7 @@ const Footer = () => {
             </div>
             <div className="footer_map_text_div">
               <p>
-                VSERVICES LTD. <FontAwesomeIcon icon={faLocation} />
+                SOLUTION GRID. <FontAwesomeIcon icon={faLocation} />
               </p>
               <p>85 Tottenham Court Road, London, W1T 4TQ, UK</p>
             </div>
@@ -125,7 +125,7 @@ const Footer = () => {
       </div>
       <div className="footer_logo_flex_div">
         <div className="footer_copy_right_text_div">
-          <small>© 2026 vServices Ltd. All rights reserved</small>
+          <small>© 2026 Solution grid Ltd. All rights reserved</small>
           <br />
           <small className="privacy">Privacy Policy</small>
           <small className="terms">Terms & Conditions</small>

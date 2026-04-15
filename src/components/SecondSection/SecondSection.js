@@ -7,15 +7,15 @@ const SecondSection = () => {
       <div className="secondSection_grid_div">
         <div>
           <img src={secondSectionPhoto} alt="" />
-          <h2>DIGITAL MARKETING</h2>
+          <h2>Software & System Development</h2>
         </div>
         <div>
           <img src={secondSectionPhoto} alt="" />
-          <h2>ECOMMERCE</h2>
+          <h2>Ai Automation</h2>
         </div>
         <div>
           <img src={secondSectionPhoto} alt="" />
-          <h2>MOBILE APPS</h2>
+          <h2> Website Design & Development</h2>
         </div>
       </div>
     </div>

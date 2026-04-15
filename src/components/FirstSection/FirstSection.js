@@ -8,11 +8,11 @@ const FirstSection = () => {
   return (
     <div className="first_section_parent">
       <h1 className="firstSection_heading">
-        Come Dominate the World With vServices
+        Come Dominate the World With solution grid
       </h1>
 
       <p className="firstSection_first_p">
-        vServices specialises in the field of websites, mobile apps, digital
+        Solution grid specialises in the field of websites, mobile apps, digital
         marketing, branding, and IT solutions in general, for companies of all
         sizes and industry segments. We focus on providing you with meaningful
         and immediate results.
@@ -82,7 +82,7 @@ const FirstSection = () => {
           </svg>
           <img className="secondPhoto" src={secondPhoto} alt="" />
           <div className="first_section_cart_text_div">
-            <h3>ARE YOU A START-UP?</h3>
+            <h3>Have you automated your business processes yet?</h3>
             <p>
               The more professional your Website and Branding is the more
               advantages you can gain. Speak to us, we can do this for you

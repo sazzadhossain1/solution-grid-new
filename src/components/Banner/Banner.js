@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Banner = () => {
   return (
     <div className="banner_parent_div">
-      <h1>We can Help You Grow Your Business</h1>
+      <h1>We Can Help You Grow Your Business</h1>
 
       <p>
         We specialise in the Websites, Mobile Apps, Digital Marketing, Branding
@@ -19,7 +19,7 @@ const Banner = () => {
           <div className="banner_cart_one banner_card">
             <FontAwesomeIcon className="banner_icon" icon={faEnvelope} />
             <br />
-            <span>Lorem ipsum dolor sit amet.</span>
+            <span>Software & System Development</span>
           </div>
         </Link>
 
@@ -27,7 +27,7 @@ const Banner = () => {
           <div className="banner_cart_two banner_card">
             <FontAwesomeIcon className="banner_icon" icon={faEnvelope} />
             <br />
-            <span>Lorem ipsum dolor sit amet.</span>
+            <span>Ai Automation</span>
           </div>
         </Link>
 
@@ -35,7 +35,7 @@ const Banner = () => {
           <div className="banner_cart_three banner_card">
             <FontAwesomeIcon className="banner_icon" icon={faEnvelope} />
             <br />
-            <span>Lorem ipsum dolor sit amet.</span>
+            <span>Website Design & Development</span>
           </div>
         </Link>
 
@@ -43,7 +43,7 @@ const Banner = () => {
           <div className="banner_cart_four banner_card">
             <FontAwesomeIcon className="banner_icon" icon={faEnvelope} />
             <br />
-            <span>Lorem ipsum dolor sit amet.</span>
+            <span>Video Editing</span>
           </div>
         </Link>
 
@@ -51,7 +51,7 @@ const Banner = () => {
           <div className="banner_cart_five banner_card">
             <FontAwesomeIcon className="banner_icon" icon={faEnvelope} />
             <br />
-            <span>Lorem ipsum dolor sit amet.</span>
+            <span>Digital Marketing</span>
           </div>
         </Link>
 
@@ -59,7 +59,7 @@ const Banner = () => {
           <div className="banner_cart_six banner_card">
             <FontAwesomeIcon className="banner_icon" icon={faEnvelope} />
             <br />
-            <span>Lorem ipsum dolor sit amet.</span>
+            <span>UI/UX Design</span>
           </div>
         </Link>
 
@@ -67,7 +67,7 @@ const Banner = () => {
           <div className="banner_cart_saven banner_card">
             <FontAwesomeIcon className="banner_icon" icon={faEnvelope} />
             <br />
-            <span>Lorem ipsum dolor sit amet.</span>
+            <span>Graphic Design</span>
           </div>
         </Link>
 
@@ -75,14 +75,14 @@ const Banner = () => {
           <div className="banner_cart_eight banner_card">
             <FontAwesomeIcon className="banner_icon" icon={faEnvelope} />
             <br />
-            <span>Lorem ipsum dolor sit amet.</span>
+            <span>Content Development</span>
           </div>
         </Link>
       </div>
 
       <div className="banner_btn_parent_div">
         <Link className="banner_link_btn" to="" target="_blank">
-          <div className="banner_btn_div">Hear from an expert</div>
+          <div className="banner_btn_div">Book a Free Consultation</div>
         </Link>
       </div>
     </div>
