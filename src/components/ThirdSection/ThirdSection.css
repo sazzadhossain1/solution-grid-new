@@ -136,13 +136,8 @@
     margin-top: 0px;
   }
 }
-@media screen and (max-width: 423px) {
+@media screen and (max-width: 489px) {
   .thirdSection_text_div button {
-    width: 50%;
-  }
-}
-@media screen and (max-width: 286px) {
-  .thirdSection_text_div button {
-    width: 70%;
+    width: 100%;
   }
 }

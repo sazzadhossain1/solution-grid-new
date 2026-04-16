@@ -1,99 +1,3 @@
-/* .navigation_main_parent_div {
-  font-family: Roboto, sans-serif;
-}
-
-.navigation_flex_div {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 65%;
-  margin: auto;
-
-  height: 50px;
-}
-.navigation_flex_div img {
-  width: 75%;
-}
-.navigation_child_flex_div {
-  display: flex;
-  align-items: center;
-  gap: 35px;
-}
-.navigation_icon {
-  color: #00b7ff;
-}
-.navigation_number_div {
-  background-color: #ff512f;
-  padding: 15px;
-  height: 20px;
-  color: white;
-} */
-
-/* NAVIGATION LOWER PART START */
-/* .navigation_lower_part_div {
-  background-color: #00b7ff;
-  color: white;
-  padding: 20px;
-}
-.faBars {
-  position: absolute;
-  right: 0;
-}
-.navigation_lower_part_div ul {
-  display: flex;
-  justify-content: space-between;
-  width: 70%;
-  margin: auto;
-  gap: 0;
-}
-.navigation_lower_part_div ul li {
-  list-style: none;
-}
-
-@media screen and (max-width: 1524px) {
-  .navigation_flex_div {
-    width: 80%;
-  }
-  .navigation_lower_part_div ul {
-    width: 85%;
-  }
-}
-@media screen and (max-width: 1321px) {
-  .navigation_flex_div {
-    width: 90%;
-  }
-  .navigation_lower_part_div ul {
-    width: 95%;
-  }
-}
-@media screen and (max-width: 1110px) {
-  .navigation_first_flex_div {
-    
-    width: 100%;
-    
-  }
-  .navigation_flex_div {
-    background-color: #ff512f;
-  }
-  .navigation_lower_part_div {
-    width: 100%;
-  }
-  .navigation_lower_part_div ul {
-    display: inline-block;
-    text-align: left;
-    width: 100%;
-    line-height: 50px;
-  }
-  .navigation_lower_part_div ul li {
-    font-size: 25px;
-    font-family:
-      "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  }
-} */
-
-/* RESET */
-/* RESET */
-/* RESET */
 * {
   margin: 0;
   padding: 0;
@@ -106,7 +10,8 @@
 }
 .nav_container {
   font-family: "Roboto", sans-serif;
-  position: sticky;
+  position: fixed;
+  width: 100%;
   top: 0;
   z-index: 999;
   background: white;

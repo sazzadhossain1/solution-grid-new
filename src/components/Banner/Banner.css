@@ -7,6 +7,7 @@
   padding-top: 30px;
   padding-bottom: 50px;
   text-align: center;
+  margin-top: 128px;
 }
 
 .banner_grid_div {
@@ -115,6 +116,9 @@
   }
 }
 @media screen and (max-width: 1100px) {
+  .banner_parent_div {
+    margin-top: 80px;
+  }
   .banner_grid_div {
     width: 90%;
   }

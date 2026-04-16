@@ -37,7 +37,8 @@ export default Home;
 
 // Contact us -> button ti change kore banner section er button er moto korte hobe. DONE
 
-// Banner section er button ti click korle akti from open hobe. From er vitore thakbe (Name, Contact Number, Email, Best time to reach you).
-// Ai from ti submit korar pore ai information gulo ai (solutiongrid@gmail.com) e chole jabe.
+// Banner section er button ti click korle akti from open hobe. From er vitore thakbe (Name, Contact Number, Email, Best time to reach you). DONE.
 
-// Footer er information and logo change korte hobe.
+// Ai from ti submit korar pore ai information gulo ai (solutiongridukltd@gmail.com) e chole jabe. DONE.
+
+// Footer er information and logo change korte hobe. DONE.

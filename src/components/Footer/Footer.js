@@ -8,9 +8,14 @@ import {
   faInstagram,
   faLinkedin,
   faTwitter,
+  faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
-import { faLocation } from "@fortawesome/free-solid-svg-icons";
-import footerLogo from "../../accets/footer/footerLogo.png";
+import {
+  faEnvelope,
+  faLocation,
+  faPhone,
+} from "@fortawesome/free-solid-svg-icons";
+import footerLogo from "../../accets/logo/logo.png";
 
 const Footer = () => {
   return (
@@ -19,45 +24,51 @@ const Footer = () => {
       <div>
         <div className="footer_grid_div">
           <div>
-            <h2>Our Company</h2>
+            <h2>Solution Grid</h2>
             <Link>
-              <p>About Us</p>
+              <p>
+                <FontAwesomeIcon icon={faLocation} /> 3653 Briargrove Ln,
+                Dallas, TX 75287
+              </p>
             </Link>
             <Link>
-              <p>Contact Us</p>
+              <p>
+                <FontAwesomeIcon icon={faPhone} /> +1.469.531.1550
+              </p>
             </Link>
             <Link>
-              <p>Career</p>
+              <p>
+                <FontAwesomeIcon icon={faWhatsapp} /> +880179.359.6432
+              </p>
             </Link>
             <Link>
-              <p>Our Blog</p>
+              <p>
+                <FontAwesomeIcon icon={faEnvelope} /> support@abaacorp.com
+              </p>
             </Link>
-            <Link>
+            {/* <Link>
               <p>Terms & Condition</p>
             </Link>
             <Link>
               <p>Complaints</p>
-            </Link>
+            </Link> */}
           </div>
           <div>
-            <h2>Our Services</h2>
+            <h2>Sitemap</h2>
             <Link>
-              <p>Corporate Identity</p>
+              <p>About Us</p>
             </Link>
             <Link>
-              <p>Website Design & Development</p>
+              <p>Our Service</p>
             </Link>
             <Link>
-              <p>Video Animation</p>
+              <p>Portfolio</p>
             </Link>
             <Link>
-              <p>Social Media Apps</p>
+              <p>Contact</p>
             </Link>
             <Link>
-              <p>Microsoft Solutions</p>
-            </Link>
-            <Link>
-              <p>Unified Communication</p>
+              <p>Mail Access</p>
             </Link>
           </div>
           <div>
