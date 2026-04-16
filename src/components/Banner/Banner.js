@@ -207,6 +207,3 @@ const Banner = () => {
 };
 
 export default Banner;
-// Service Id: service_s8d5yt4
-// Template ID: template_yujwqxa
-// Public Key: lpEFo_l5w6i06KfjP
