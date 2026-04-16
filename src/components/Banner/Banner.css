@@ -78,14 +78,15 @@
 }
 
 /* BUTTON */
+
+.banner_btn_parent_div {
+  width: 20%;
+  margin: auto;
+}
 .banner_link_btn {
   text-decoration: none;
   color: black;
   font-size: 25px;
-}
-.banner_btn_parent_div {
-  width: 20%;
-  margin: auto;
 }
 .banner_btn_div {
   background-image: linear-gradient(
@@ -98,10 +99,6 @@
   margin: auto;
   margin-top: 30px;
   font-weight: 500;
-}
-.banner_link_btn {
-  /* width: 20%; */
-  background-color: red;
 }
 
 @media screen and (max-width: 1536px) {
@@ -155,4 +152,80 @@
   .banner_btn_parent_div {
     width: 85%;
   }
+}
+
+/* 🔥 MODAL OVERLAY */
+.modal_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* dark background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+/* 📦 MODAL BOX */
+.modal_box {
+  background: white;
+  width: 400px;
+  max-width: 90%;
+  padding: 30px;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  animation: popup 0.3s ease;
+}
+
+/* ✨ ANIMATION */
+@keyframes popup {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* ❌ CLOSE BUTTON */
+.modal_close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  color: black;
+}
+
+/* 🧾 FORM */
+.modal_form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.modal_form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.modal_form button {
+  padding: 10px;
+  border: none;
+  background: orange;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.modal_form button:hover {
+  background: darkorange;
 }
