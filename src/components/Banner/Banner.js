@@ -1,104 +1,19 @@
-// import React from "react";
-// import "./Banner.css";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-// import { Link } from "react-router-dom";
-
-// const Banner = () => {
-//   return (
-//     <div className="banner_parent_div">
-//       <h1>We Can Help You Grow Your Business</h1>
-
-//       <p>
-//         We specialise in the Websites, Mobile Apps, Digital Marketing, Branding
-//         and IT Solutions
-//       </p>
-
-//       <div className="banner_grid_div">
-//         <Link>
-//           <div className="banner_cart_one banner_card">
-//             <FontAwesomeIcon className="banner_icon" icon={faEnvelope} />
-//             <br />
-//             <span>Software & System Development</span>
-//           </div>
-//         </Link>
-
-//         <Link>
-//           <div className="banner_cart_two banner_card">
-//             <FontAwesomeIcon className="banner_icon" icon={faEnvelope} />
-//             <br />
-//             <span>Ai Automation</span>
-//           </div>
-//         </Link>
-
-//         <Link>
-//           <div className="banner_cart_three banner_card">
-//             <FontAwesomeIcon className="banner_icon" icon={faEnvelope} />
-//             <br />
-//             <span>Website Design & Development</span>
-//           </div>
-//         </Link>
-
-//         <Link>
-//           <div className="banner_cart_four banner_card">
-//             <FontAwesomeIcon className="banner_icon" icon={faEnvelope} />
-//             <br />
-//             <span>Video Editing</span>
-//           </div>
-//         </Link>
-
-//         <Link>
-//           <div className="banner_cart_five banner_card">
-//             <FontAwesomeIcon className="banner_icon" icon={faEnvelope} />
-//             <br />
-//             <span>Digital Marketing</span>
-//           </div>
-//         </Link>
-
-//         <Link>
-//           <div className="banner_cart_six banner_card">
-//             <FontAwesomeIcon className="banner_icon" icon={faEnvelope} />
-//             <br />
-//             <span>UI/UX Design</span>
-//           </div>
-//         </Link>
-
-//         <Link>
-//           <div className="banner_cart_saven banner_card">
-//             <FontAwesomeIcon className="banner_icon" icon={faEnvelope} />
-//             <br />
-//             <span>Graphic Design</span>
-//           </div>
-//         </Link>
-
-//         <Link>
-//           <div className="banner_cart_eight banner_card">
-//             <FontAwesomeIcon className="banner_icon" icon={faEnvelope} />
-//             <br />
-//             <span>Content Development</span>
-//           </div>
-//         </Link>
-//       </div>
-
-//       <div className="banner_btn_parent_div">
-//         <Link className="banner_link_btn" to="" target="_blank">
-//           <div className="banner_btn_div">Book a Free Consultation</div>
-//         </Link>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Banner;
-
 import React, { useState, useEffect } from "react";
 import "./Banner.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
+import emailjs from "@emailjs/browser";
 
 const Banner = () => {
   const [openModal, setOpenModal] = useState(false);
+
+  const [formData, setFormData] = useState({
+    name: "",
+    phone: "",
+    email: "",
+    time: "",
+  });
 
   // 🔒 Lock scroll when modal open
   useEffect(() => {
@@ -109,6 +24,47 @@ const Banner = () => {
     }
   }, [openModal]);
 
+  // 🔄 Handle input change
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  // 📩 Send email
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .send(
+        "service_s8d5yt4",
+        "template_yujwqxa",
+        {
+          name: formData.name,
+          phone: formData.phone,
+          email: formData.email,
+          time: formData.time,
+        },
+        "lpEFo_l5w6i06KfjP",
+      )
+      .then(
+        () => {
+          alert("Message sent successfully!");
+          setOpenModal(false);
+          setFormData({
+            name: "",
+            phone: "",
+            email: "",
+            time: "",
+          });
+        },
+        (error) => {
+          alert("Failed to send message");
+          console.log(error);
+        },
+      );
+  };
   return (
     <div className="banner_parent_div">
       <h1>We Can Help You Grow Your Business</h1>
@@ -204,13 +160,40 @@ const Banner = () => {
 
             <h2>Book a Free Consultation</h2>
 
-            <form className="modal_form">
-              <input type="text" placeholder="Your Name" required />
-              <input type="text" placeholder="Contact Number" required />
-              <input type="email" placeholder="Email Address" required />
+            <form className="modal_form" onSubmit={handleSubmit}>
               <input
                 type="text"
+                name="name"
+                placeholder="Your Name"
+                value={formData.name}
+                onChange={handleChange}
+                required
+              />
+
+              <input
+                type="text"
+                name="phone"
+                placeholder="Contact Number"
+                value={formData.phone}
+                onChange={handleChange}
+                required
+              />
+
+              <input
+                type="email"
+                name="email"
+                placeholder="Email Address"
+                value={formData.email}
+                onChange={handleChange}
+                required
+              />
+
+              <input
+                type="text"
+                name="time"
                 placeholder="Best time to reach you"
+                value={formData.time}
+                onChange={handleChange}
                 required
               />
 
@@ -224,3 +207,6 @@ const Banner = () => {
 };
 
 export default Banner;
+// Service Id: service_s8d5yt4
+// Template ID: template_yujwqxa
+// Public Key: lpEFo_l5w6i06KfjP
