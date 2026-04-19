@@ -27,8 +27,8 @@ const Footer = () => {
             <h2>Solution Grid</h2>
             <Link>
               <p>
-                <FontAwesomeIcon icon={faLocation} /> 3653 Briargrove Ln,
-                Dallas, TX 75287
+                {/* <FontAwesomeIcon icon={faLocation} /> 3653 Briargrove Ln,
+                Dallas, TX 75287 */}
               </p>
             </Link>
             <Link>
@@ -125,12 +125,9 @@ const Footer = () => {
               <FontAwesomeIcon className="linkdin" icon={faLinkedin} />
               <FontAwesomeIcon className="instagram" icon={faInstagram} />
             </div>
-            <div className="footer_map_text_div">
-              <p>
-                SOLUTION GRID. <FontAwesomeIcon icon={faLocation} />
-              </p>
+            {/* <div className="footer_map_text_div">
               <p>85 Tottenham Court Road, London, W1T 4TQ, UK</p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -143,7 +140,10 @@ const Footer = () => {
           <small className="cookie">Cookie Policy</small>
         </div>
         <div className="footer_logo_second_flex_div">
-          <img className="footer_logo" src={footerLogo} alt="" />
+          {/* <img className="footer_logo" src={footerLogo} alt="" /> */}
+          <p>
+            SOLUTION GRID. <FontAwesomeIcon icon={faLocation} />
+          </p>
           <span>Positive SSL Wildcard</span>
         </div>
       </div>

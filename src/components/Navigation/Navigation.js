@@ -78,6 +78,7 @@ import {
   faEnvelope,
   faWandMagicSparkles,
 } from "@fortawesome/free-solid-svg-icons";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 const Navigation = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -101,7 +102,19 @@ const Navigation = () => {
             </p>
 
             <div className="nav_phone">
-              <span>+880179.359.6432</span>
+              <a
+                href="https://wa.me/8801793596432"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>
+                  <FontAwesomeIcon
+                    className="nav_faWhatsapp"
+                    icon={faWhatsapp}
+                  />{" "}
+                  +880179.359.6432
+                </span>
+              </a>
             </div>
           </div>
         </div>

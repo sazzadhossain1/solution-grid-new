@@ -55,8 +55,15 @@
   padding: 8px 16px;
   border-radius: 30px;
   font-weight: 500;
+  cursor: pointer;
 }
-
+.nav_phone a {
+  text-decoration: none;
+  color: white;
+}
+.nav_faWhatsapp {
+  /* color: green; */
+}
 /* BOTTOM NAV */
 .nav_bottom {
   background: #00b7ff;
