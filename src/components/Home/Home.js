@@ -28,8 +28,8 @@ export default Home;
 // website er shob jayga theke logo change korte hobe. DONE.
 // Navigation theke (Free Consultation) remove korte hobe. DONE.
 // Navigation er (Contact) replace kore (support@solutiongrid.com) ai email dite hobe. DONE.
-// Navigation menu er inner page create korte hobe.
-// Banner section er box gulor background color remove kore border add korte hoe.
+// Navigation menu er inner page create korte hobe. DONE.
+// Banner section er box gulor background color remove kore border add korte hoe.DONE.
 // Banner section er box gulo te icon add korte hobe.
 // Footer theke => Digital marketing and vBusiness section ti remove korte hobe.
 // Footer section er right side e QR code boshate hobe.

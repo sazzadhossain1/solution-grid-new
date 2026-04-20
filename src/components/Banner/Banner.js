@@ -1,9 +1,22 @@
 import React, { useState, useEffect } from "react";
 import "./Banner.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faTimes } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBullhorn,
+  faCode,
+  faDrawPolygon,
+  faEnvelope,
+  faRobot,
+  faTimes,
+  faVideo,
+} from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import emailjs from "@emailjs/browser";
+import {
+  faBuffer,
+  faElementor,
+  faFigma,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Banner = () => {
   const [openModal, setOpenModal] = useState(false);
@@ -77,7 +90,7 @@ const Banner = () => {
       <div className="banner_grid_div">
         <Link>
           <div className="banner_cart_one banner_card">
-            <FontAwesomeIcon className="banner_icon" icon={faEnvelope} />
+            <FontAwesomeIcon className="banner_icon" icon={faCode} />
             <br />
             <span>Software & System Development</span>
           </div>
@@ -85,7 +98,7 @@ const Banner = () => {
 
         <Link>
           <div className="banner_cart_two banner_card">
-            <FontAwesomeIcon className="banner_icon" icon={faEnvelope} />
+            <FontAwesomeIcon className="banner_icon" icon={faRobot} />
             <br />
             <span>Ai Automation</span>
           </div>
@@ -93,7 +106,7 @@ const Banner = () => {
 
         <Link>
           <div className="banner_cart_three banner_card">
-            <FontAwesomeIcon className="banner_icon" icon={faEnvelope} />
+            <FontAwesomeIcon className="banner_icon" icon={faElementor} />
             <br />
             <span>Website Design & Development</span>
           </div>
@@ -101,7 +114,7 @@ const Banner = () => {
 
         <Link>
           <div className="banner_cart_four banner_card">
-            <FontAwesomeIcon className="banner_icon" icon={faEnvelope} />
+            <FontAwesomeIcon className="banner_icon" icon={faVideo} />
             <br />
             <span>Video Editing</span>
           </div>
@@ -109,7 +122,8 @@ const Banner = () => {
 
         <Link>
           <div className="banner_cart_five banner_card">
-            <FontAwesomeIcon className="banner_icon" icon={faEnvelope} />
+            <FontAwesomeIcon className="banner_icon" icon={faBullhorn} />
+
             <br />
             <span>Digital Marketing</span>
           </div>
@@ -117,7 +131,7 @@ const Banner = () => {
 
         <Link>
           <div className="banner_cart_six banner_card">
-            <FontAwesomeIcon className="banner_icon" icon={faEnvelope} />
+            <FontAwesomeIcon className="banner_icon" icon={faFigma} />
             <br />
             <span>UI/UX Design</span>
           </div>
@@ -125,7 +139,8 @@ const Banner = () => {
 
         <Link>
           <div className="banner_cart_saven banner_card">
-            <FontAwesomeIcon className="banner_icon" icon={faEnvelope} />
+            <FontAwesomeIcon className="banner_icon" icon={faDrawPolygon} />
+
             <br />
             <span>Graphic Design</span>
           </div>
@@ -133,7 +148,7 @@ const Banner = () => {
 
         <Link>
           <div className="banner_cart_eight banner_card">
-            <FontAwesomeIcon className="banner_icon" icon={faEnvelope} />
+            <FontAwesomeIcon className="banner_icon" icon={faBuffer} />
             <br />
             <span>Content Development</span>
           </div>

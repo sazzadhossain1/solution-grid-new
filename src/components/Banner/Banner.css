@@ -47,35 +47,43 @@
 
 /* COLORS */
 .banner_cart_one {
-  background-color: coral;
+  /* background-color: coral; */
+  border: 3px solid coral;
 }
 
 .banner_cart_two {
-  background-color: turquoise;
+  /* background-color: turquoise; */
+  border: 3px solid turquoise;
 }
 
 .banner_cart_three {
-  background-color: slateblue;
+  /* background-color: slateblue; */
+  border: 3px solid slateblue;
 }
 
 .banner_cart_four {
-  background-color: deepskyblue;
+  /* background-color: deepskyblue; */
+  border: 3px solid deepskyblue;
 }
 
 .banner_cart_five {
-  background-color: orangered;
+  /* background-color: orangered; */
+  border: 3px solid orangered;
 }
 
 .banner_cart_six {
-  background-color: deeppink;
+  /* background-color: deeppink; */
+  border: 3px solid deeppink;
 }
 
 .banner_cart_saven {
-  background-color: #4cb134;
+  /* background-color: #4cb134; */
+  border: 3px solid #4cb134;
 }
 
 .banner_cart_eight {
-  background-color: darkblue;
+  /* background-color: darkblue; */
+  border: 3px solid darkblue;
 }
 
 /* BUTTON */
