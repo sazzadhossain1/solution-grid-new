@@ -10,9 +10,14 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   text-align: left;
-  width: 75%;
+  width: 80%;
   margin: auto;
   margin-bottom: 50px;
+}
+.footer_grid_div div {
+  margin: auto;
+  /* background-color: red; */
+  width: 100%;
 }
 .footer_grid_div h2 {
   border-bottom: 1px solid gainsboro;

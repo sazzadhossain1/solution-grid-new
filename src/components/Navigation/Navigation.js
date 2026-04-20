@@ -1,84 +1,10 @@
-// import React from "react";
-// import "./Navigation.css";
-// import logo from "../../accets/logo/logo.png";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import {
-//   faBars,
-//   faEnvelope,
-//   faWandMagicSparkles,
-// } from "@fortawesome/free-solid-svg-icons";
-
-// const Navigation = () => {
-//   return (
-//     <div className="navigation_main_parent_div">
-//       <div className="navigation_first_flex_div">
-//         <div className="navigation_flex_div">
-//           <div>
-//             <img src={logo} alt="" />
-//           </div>
-//           <div className="navigation_child_flex_div">
-//             <p>
-//               <FontAwesomeIcon className="navigation_icon" icon={faEnvelope} />{" "}
-//               Contact
-//             </p>
-//             <p>
-//               {" "}
-//               <FontAwesomeIcon
-//                 className="navigation_icon"
-//                 icon={faWandMagicSparkles}
-//               />{" "}
-//               Free Consultation
-//             </p>
-//             <div className="navigation_number_div">
-//               <span>017 XXX XXX XX</span>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//       <div className="navigation_lower_part_div">
-//         <FontAwesomeIcon className="faBars" icon={faBars} />
-//         <ul>
-//           <li>
-//             <FontAwesomeIcon icon={faEnvelope} /> Our Services
-//           </li>
-//           <li>
-//             <FontAwesomeIcon icon={faEnvelope} /> Start-ups
-//           </li>
-//           <li>
-//             <FontAwesomeIcon icon={faEnvelope} /> Existing Business
-//           </li>
-//           <li>
-//             <FontAwesomeIcon icon={faEnvelope} /> Digital Marketing
-//           </li>
-//           <li>
-//             <FontAwesomeIcon icon={faEnvelope} /> eCommerce
-//           </li>
-//           <li>
-//             <FontAwesomeIcon icon={faEnvelope} /> Mobile App
-//           </li>
-//           <li>
-//             <FontAwesomeIcon icon={faEnvelope} /> ERP Solution
-//           </li>
-//           <li>Video animation</li>
-//         </ul>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Navigation;
-
 import React, { useState } from "react";
 import "./Navigation.css";
 import logo from "../../accets/logo/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faBars,
-  faTimes,
-  faEnvelope,
-  faWandMagicSparkles,
-} from "@fortawesome/free-solid-svg-icons";
+import { faBars, faTimes, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -89,21 +15,19 @@ const Navigation = () => {
         {/* TOP BAR */}
         <div className="nav_top">
           <div className="nav_logo">
-            <img src={logo} alt="logo" />
+            <Link to="/home">
+              <img src={logo} alt="logo" />
+            </Link>
           </div>
 
           <div className="nav_actions">
-            <p>
-              <FontAwesomeIcon icon={faEnvelope} /> Contact
-            </p>
-
-            <p>
-              <FontAwesomeIcon icon={faWandMagicSparkles} /> Free Consultation
+            <p className="nav_email_p">
+              <FontAwesomeIcon icon={faEnvelope} /> support@solutiongrid.com
             </p>
 
             <div className="nav_phone">
               <a
-                href="https://wa.me/8801793596432"
+                href="https://wa.me/+447932506226"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -112,7 +36,7 @@ const Navigation = () => {
                     className="nav_faWhatsapp"
                     icon={faWhatsapp}
                   />{" "}
-                  +880179.359.6432
+                  +44 7932 506226
                 </span>
               </a>
             </div>
@@ -130,23 +54,27 @@ const Navigation = () => {
 
           <ul className={menuOpen ? "nav_menu active" : "nav_menu"}>
             <li>
-              <FontAwesomeIcon icon={faEnvelope} /> Home
+              <FontAwesomeIcon icon={faEnvelope} />
+              <Link to="/home">Home</Link>
             </li>
             <li>
-              <FontAwesomeIcon icon={faEnvelope} /> About
+              <FontAwesomeIcon icon={faEnvelope} />
+              <Link to="/about"> About</Link>{" "}
             </li>
             <li>
-              <FontAwesomeIcon icon={faEnvelope} /> Services
+              <FontAwesomeIcon icon={faEnvelope} />
+              <Link to="/services">Services</Link>
             </li>
             <li>
-              <FontAwesomeIcon icon={faEnvelope} /> Portfolio
+              <FontAwesomeIcon icon={faEnvelope} />
+              <Link to="/portfolio">Portfolio</Link>
             </li>
             <li>
               <FontAwesomeIcon icon={faEnvelope} /> Contact
             </li>
-            <li>
+            {/* <li>
               <FontAwesomeIcon icon={faEnvelope} /> Login
-            </li>
+            </li> */}
           </ul>
         </div>
       </header>

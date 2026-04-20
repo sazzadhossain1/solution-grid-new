@@ -27,13 +27,13 @@ const Footer = () => {
             <h2>Solution Grid</h2>
             <Link>
               <p>
-                {/* <FontAwesomeIcon icon={faLocation} /> 3653 Briargrove Ln,
-                Dallas, TX 75287 */}
+                <FontAwesomeIcon icon={faLocation} /> 40 Winsford Terrace LONDON
+                N18 1BS
               </p>
             </Link>
             <Link>
               <p>
-                <FontAwesomeIcon icon={faPhone} /> +1.469.531.1550
+                <FontAwesomeIcon icon={faPhone} /> +44 7932 506226
               </p>
             </Link>
             <Link>

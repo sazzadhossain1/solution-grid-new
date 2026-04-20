@@ -107,12 +107,22 @@
     width: 65%;
   }
 }
+@media screen and (max-width: 1335px) {
+  .banner_parent_div {
+    margin-top: 120px;
+  }
+}
 @media screen and (max-width: 1300px) {
   .banner_grid_div {
     width: 75%;
   }
   .banner_btn_parent_div {
     width: 35%;
+  }
+}
+@media screen and (max-width: 1110px) {
+  .banner_parent_div {
+    margin-top: 112px;
   }
 }
 @media screen and (max-width: 1100px) {
@@ -142,6 +152,11 @@
 @media screen and (max-width: 715px) {
   .banner_btn_parent_div {
     width: 55%;
+  }
+}
+@media screen and (max-width: 656px) {
+  .banner_parent_div {
+    margin-top: 60px;
   }
 }
 @media screen and (max-width: 455px) {

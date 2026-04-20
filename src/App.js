@@ -4,6 +4,9 @@ import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Main from "./LayOut/Main";
 import Home from "./components/Home/Home";
+import About from "./components/About/About";
+import Services from "./components/Services/Services";
+import Portfolio from "./components/Portfolio/Portfolio";
 
 function App() {
   const router = createBrowserRouter([
@@ -18,6 +21,18 @@ function App() {
         {
           path: "/home",
           element: <Home></Home>,
+        },
+        {
+          path: "/about",
+          element: <About></About>,
+        },
+        {
+          path: "/services",
+          element: <Services></Services>,
+        },
+        {
+          path: "/portfolio",
+          element: <Portfolio></Portfolio>,
         },
       ],
     },
