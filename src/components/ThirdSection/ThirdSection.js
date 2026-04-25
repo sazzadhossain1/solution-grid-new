@@ -71,40 +71,58 @@ const ThirdSection = () => {
       <img src={thirdSectionPhoto} alt="" />
 
       <div className="thirdSection_text_div">
-        <h2>Professional IT Services Portal</h2>
+        <h2>
+          Affordable, high-quality tech solutions where innovation meets
+          creativity
+        </h2>
 
-        <p className="thirdSection_first_p">
-          Where technology meets artistic imagination
+        {/* <p className="thirdSection_first_p">
+          Solutiongrid.com takes the stress out of technology so you can focus
+          on what matters most, growing your business. From complex software
+          development to modern websites, AI automation, graphics, and video
+          editing, we handle it all with precision and care.
         </p>
 
         <p className="thirdSection_second_p">
-          We understand unique IT business needs and our team of experts is
-          ready to provide high-quality solutions customised to each customer in
-          the most cost-effective way possible with the highest quality
-          standards
+          No more dealing with confusing tech or inflated costs. Our team
+          delivers high-quality, reliable solutions at rates that make sense,
+          without cutting corners. Whether you’re a startup or an established
+          business, we simplify the process and bring your ideas to life
+          efficiently
         </p>
 
         <p className="thirdSection_third_p">
-          At Solution grid, we follow and adhere to the following international
-          quality standards and requirements to deliver your desired services in
-          a cost-effective and timely manner:
-        </p>
+          Where technology meets artistic imagination, Solutiongrid blends
+          innovation with creativity to build solutions that not only work
+          flawlessly but also stand out.
+        </p> */}
 
         <ul>
-          <li>ISO-9001 to meet customer quality expectations</li>
           <li>
-            ISO-14001 to work in an environmentally-friendly and sustainable way
+            Solutiongrid.com takes the stress out of technology so you can focus
+            on what matters most, growing your business. From complex software
+            development to modern websites, AI automation, graphics, and video
+            editing, we handle it all with precision and care.
           </li>
           <li>
-            ISO-27001 to keep your sensitive information assets safe and secure
+            No more dealing with confusing tech or inflated costs. Our team
+            delivers high-quality, reliable solutions at rates that make sense,
+            without cutting corners. Whether you’re a startup or an established
+            business, we simplify the process and bring your ideas to life
+            efficiently.
           </li>
           <li>
+            Where technology meets artistic imagination, Solutiongrid blends
+            innovation with creativity to build solutions that not only work
+            flawlessly but also stand out.
+          </li>
+          {/* <li>
             ISO/IEC/IEEE-29119 for high-quality approach to software testing
           </li>
           <li>
             Statutory HSE regulations and standards to keep our colleagues and
             wider public safe of harm’s way
-          </li>
+          </li> */}
         </ul>
 
         {/* 🔘 BUTTON */}

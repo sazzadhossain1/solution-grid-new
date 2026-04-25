@@ -8,6 +8,16 @@
   gap: 50px;
   margin: auto;
 }
+.secondSection_grid_div div {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 10px;
+}
+.secondSection_grid_div div h2 {
+  margin-bottom: 10px;
+}
+.secondSection_grid_div div p {
+  margin-top: 10px;
+}
 .secondSection_grid_div div img {
   width: 100%;
 }

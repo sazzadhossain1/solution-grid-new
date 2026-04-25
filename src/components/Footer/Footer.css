@@ -8,9 +8,9 @@
 }
 .footer_grid_div {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   text-align: left;
-  width: 80%;
+  width: 65%;
   margin: auto;
   margin-bottom: 50px;
 }
@@ -97,6 +97,9 @@
 }
 .footer_copy_right_text_div {
   text-align: left;
+}
+.footer_copy_right_text_div small {
+  padding-bottom: 10px;
 }
 .privacy {
   border-right: 2px solid black;

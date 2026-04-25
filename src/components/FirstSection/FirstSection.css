@@ -2,9 +2,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 75%;
+  width: 100%;
   margin: auto;
-  gap: 0px;
+  gap: 50px;
 }
 .firstSection_first_cart_div {
   position: relative;

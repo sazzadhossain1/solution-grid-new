@@ -1,8 +1,9 @@
 import React from "react";
 import "./Footer.css";
 import { Link } from "react-router-dom";
-import footerMap from "../../accets/footer/footerMap.jpg";
+import footerMap from "../../accets/footer/footerMap.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import QrCode from "../../accets/footer/footerQrCode.jpeg";
 import {
   faFacebook,
   faInstagram,
@@ -71,47 +72,9 @@ const Footer = () => {
               <p>Mail Access</p>
             </Link>
           </div>
+
           <div>
-            <h2>Digital Marketing</h2>
-            <Link>
-              <p>Search Engine Optimisation</p>
-            </Link>
-            <Link>
-              <p>Search Engine Marketing</p>
-            </Link>
-            <Link>
-              <p>Social Media Marketing</p>
-            </Link>
-            <Link>
-              <p>Email Marketing</p>
-            </Link>
-            <Link>
-              <p>SMS Marketing</p>
-            </Link>
-            <Link>
-              <p>Mobile Marketing</p>
-            </Link>
-          </div>
-          <div>
-            <h2>vBusiness</h2>
-            <Link>
-              <p>800comms</p>
-            </Link>
-            <Link>
-              <p>Certax London</p>
-            </Link>
-            <Link>
-              <p>Consulting Connect</p>
-            </Link>
-            <Link>
-              <p>EventsPMO</p>
-            </Link>
-            <Link>
-              <p>Mobelique</p>
-            </Link>
-            <Link>
-              <p>KVTech</p>
-            </Link>
+            <img src={QrCode} alt="" />
           </div>
         </div>
       </div>
@@ -133,19 +96,19 @@ const Footer = () => {
       </div>
       <div className="footer_logo_flex_div">
         <div className="footer_copy_right_text_div">
-          <small>© 2026 Solution grid Ltd. All rights reserved</small>
+          <small>© 2026 SolutionGrid . All rights reserved</small>
           <br />
-          <small className="privacy">Privacy Policy</small>
+          {/* <small className="privacy">Privacy Policy</small>
           <small className="terms">Terms & Conditions</small>
-          <small className="cookie">Cookie Policy</small>
+          <small className="cookie">Cookie Policy</small> */}
         </div>
-        <div className="footer_logo_second_flex_div">
-          {/* <img className="footer_logo" src={footerLogo} alt="" /> */}
+        {/* <div className="footer_logo_second_flex_div">
+         
           <p>
             SOLUTION GRID. <FontAwesomeIcon icon={faLocation} />
           </p>
           <span>Positive SSL Wildcard</span>
-        </div>
+        </div> */}
       </div>
     </div>
   );

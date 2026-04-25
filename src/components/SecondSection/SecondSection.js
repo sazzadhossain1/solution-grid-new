@@ -6,16 +6,25 @@ const SecondSection = () => {
     <div className="secondSection_parent_div">
       <div className="secondSection_grid_div">
         <div>
-          <img src={secondSectionPhoto} alt="" />
           <h2>Software & System Development</h2>
+          <img src={secondSectionPhoto} alt="" />
+          <p>
+            Let us help you with the software of your need. Be it a SAAS or for
+            your company operation.
+          </p>
         </div>
         <div>
-          <img src={secondSectionPhoto} alt="" />
           <h2>Ai Automation</h2>
+          <img src={secondSectionPhoto} alt="" />
+          <p>Have machine work for your business 24/7 uninterrupted.</p>
         </div>
         <div>
-          <img src={secondSectionPhoto} alt="" />
           <h2> Website Design & Development</h2>
+          <img src={secondSectionPhoto} alt="" />
+          <p>
+            No pain with technical team, no budget issue. Let us give you the
+            best with an affordable cost.
+          </p>
         </div>
       </div>
     </div>

@@ -8,14 +8,14 @@ const FirstSection = () => {
   return (
     <div className="first_section_parent">
       <h1 className="firstSection_heading">
-        Come Dominate the World With solution grid
+        Dominate the World with SolutionGrid
       </h1>
 
       <p className="firstSection_first_p">
-        Solution grid specialises in the field of websites, mobile apps, digital
-        marketing, branding, and IT solutions in general, for companies of all
-        sizes and industry segments. We focus on providing you with meaningful
-        and immediate results.
+        SolutionGrid specialises in the field of Ai Automation, software
+        development, websites, mobile apps, digital marketing, video editing and
+        graphic design for companies of all sizes and industry segments. We
+        focus on providing you with meaningful and immediate results.
       </p>
 
       <div className="fistSection_grid_div">
@@ -45,13 +45,15 @@ const FirstSection = () => {
           </svg>
           <img className="firstPhoto" src={firstPhoto} alt="" />
           <div className="first_section_cart_text_div">
-            <h3>ARE YOU A START-UP?</h3>
+            <h3>AFRE YOU A START-UP?</h3>
             <p>
-              The more professional your Website and Branding is the more
-              advantages you can gain. Speak to us, we can do this for you
+              Allow us to set you up with a professional website and add value
+              to your branding.
             </p>
             <Link>
-              <button className="firstSection_btn1">Let's Build a Brand</button>
+              <button className="firstSection_btn1">
+                Get a Free Consultaion
+              </button>
             </Link>
           </div>
         </div>
@@ -82,13 +84,15 @@ const FirstSection = () => {
           </svg>
           <img className="secondPhoto" src={secondPhoto} alt="" />
           <div className="first_section_cart_text_div">
-            <h3>Have you automated your business processes yet?</h3>
+            <h3>HAVE YOU AUTOMATED YOUR BUSINESS PROCESSES YET?</h3>
             <p>
-              The more professional your Website and Branding is the more
-              advantages you can gain. Speak to us, we can do this for you
+              Avoid human error and have everything automated so your support
+              service can be 24/7.
             </p>
             <Link>
-              <button className="firstSection_btn2">Let's Build a Brand</button>
+              <button className="firstSection_btn2">
+                Get a Free Consultaion
+              </button>
             </Link>
           </div>
         </div>

@@ -30,10 +30,10 @@ export default Home;
 // Navigation er (Contact) replace kore (support@solutiongrid.com) ai email dite hobe. DONE.
 // Navigation menu er inner page create korte hobe. DONE.
 // Banner section er box gulor background color remove kore border add korte hoe.DONE.
-// Banner section er box gulo te icon add korte hobe.
-// Footer theke => Digital marketing and vBusiness section ti remove korte hobe.
-// Footer section er right side e QR code boshate hobe.
+// Banner section er box gulo te icon add korte hobe. DONE.
+// Footer theke => Digital marketing and vBusiness section ti remove korte hobe. DONE.
+// Footer section er right side e QR code boshate hobe. DONE.
 
-// ( 40 Winsford Terrace LONDON N18 1BS) ai text google map e search kore location ber kore map er screenshort niye footer er sereen short replace korte hobe.
+// ( 40 Winsford Terrace LONDON N18 1BS) ai text google map e search kore location ber kore map er screenshort niye footer er sereen short replace korte hobe. DONE.
 
-// Footer e (© 2026 Solution grid Ltd. All rights reserved) ai text ti rekhe baki shob text remove korte hobe and (© 2026 Solution grid Ltd. All rights reserved) ai text center korte hobe.
+// Footer e (© 2026 Solution grid Ltd. All rights reserved) ai text ti rekhe baki shob text remove korte hobe and (© 2026 Solution grid Ltd. All rights reserved) ai text center korte hobe. DONE.
