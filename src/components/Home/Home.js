@@ -14,8 +14,8 @@ const Home = () => {
       <FirstSection></FirstSection>
       <SecondSection></SecondSection>
       <ThirdSection></ThirdSection>
-      {/* <ForthSection></ForthSection> */}
-      <FifthSection></FifthSection>
+      <ForthSection></ForthSection>
+      {/* <FifthSection></FifthSection> */}
     </div>
   );
 };

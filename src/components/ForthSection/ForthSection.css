@@ -1,0 +1,32 @@
+.forthSection_parent_div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  width: 75%;
+  margin: auto;
+  gap: 50px;
+  margin-top: 100px;
+}
+.forthSection_text_div {
+  text-align: left;
+}
+.forthSection_text_div h2 {
+  margin-bottom: 15px;
+}
+.forthSection_text_div p {
+  margin-bottom: 30px;
+}
+.forthSection_aboutUs_photo {
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .forthSection_parent_div {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 500px) {
+  .forthSection_parent_div {
+    width: 95%;
+  }
+}
