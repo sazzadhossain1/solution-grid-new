@@ -5,7 +5,6 @@ import {
   faBullhorn,
   faCode,
   faDrawPolygon,
-  faEnvelope,
   faRobot,
   faTimes,
   faVideo,
