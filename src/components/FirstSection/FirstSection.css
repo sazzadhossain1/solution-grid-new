@@ -81,6 +81,56 @@
   transition: ease-in-out 0.4s;
 }
 
+/* ======== MODAL START ============ */
+.modal_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal_box {
+  background: white;
+  width: 400px;
+  max-width: 90%;
+  padding: 30px;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+}
+
+.modal_close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  cursor: pointer;
+}
+
+.modal_form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.modal_form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.modal_form button {
+  padding: 10px;
+  background: #007eff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
 @media screen and (max-width: 1536px) {
   .firstSection_first_p {
     width: 75%;

@@ -1,6 +1,5 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./App.css";
-import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
+
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Main from "./LayOut/Main";
 import Home from "./components/Home/Home";
