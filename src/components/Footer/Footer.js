@@ -20,7 +20,7 @@ import footerLogo from "../../accets/logo/logo.png";
 
 const Footer = () => {
   return (
-    <div className="footer_parent_div">
+    <div id="footer" className="footer_parent_div">
       <div className="footer_blank_div"></div>
       <div>
         <div className="footer_grid_div">

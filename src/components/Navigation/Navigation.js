@@ -204,7 +204,8 @@ const Navigation = () => {
             </li>
 
             <li>
-              <FontAwesomeIcon icon={faEnvelope} /> Contact
+              <FontAwesomeIcon icon={faEnvelope} />{" "}
+              <Link to="/home#footer">Contact</Link>
             </li>
           </ul>
         </div>
