@@ -4,7 +4,7 @@ import aboutUs from "../../accets/forthSection/aboutUs.jpg";
 
 const ForthSection = () => {
   return (
-    <div className="forthSection_parent_div">
+    <div id="about" className="forthSection_parent_div">
       <div className="forthSection_text_div">
         <h2>About Us</h2>
         <p>

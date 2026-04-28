@@ -149,7 +149,7 @@ const Navigation = () => {
 
             <li>
               <FontAwesomeIcon icon={faEnvelope} />{" "}
-              <Link to="/about">About</Link>
+              <Link to="/home#about">About</Link>
             </li>
 
             {/* SERVICES DROPDOWN */}
