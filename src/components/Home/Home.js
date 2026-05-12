@@ -29,11 +29,11 @@ const Home = () => {
   return (
     <div>
       <Banner></Banner>
-      <FirstSection></FirstSection>
+      {/* <FirstSection></FirstSection>
       <SecondSection></SecondSection>
       <ThirdSection></ThirdSection>
       <Portfolio></Portfolio>
-      <ForthSection></ForthSection>
+      <ForthSection></ForthSection> */}
       {/* <FifthSection></FifthSection> */}
     </div>
   );
