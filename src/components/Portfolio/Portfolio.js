@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 
 const Portfolio = () => {
   return (
-    <div className="portfolio_parent_div">
+    <div id="portfolio" className="portfolio_parent_div">
       <h1>Portfolio</h1>
 
       <div className="portfolio_grid_div">
