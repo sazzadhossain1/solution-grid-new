@@ -31,8 +31,8 @@ const Home = () => {
       <Banner></Banner>
       <FirstSection></FirstSection>
       <SecondSection></SecondSection>
-      {/* <ThirdSection></ThirdSection>
-      <Portfolio></Portfolio>
+      <ThirdSection></ThirdSection>
+      {/* <Portfolio></Portfolio>
       <ForthSection></ForthSection> */}
       {/* <FifthSection></FifthSection> */}
     </div>
