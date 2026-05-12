@@ -87,7 +87,7 @@ const Banner = () => {
       </p>
 
       <div className="banner_grid_div">
-        <Link>
+        <Link to="/softwareAndSystem">
           <div className="banner_cart_one banner_card">
             <FontAwesomeIcon className="banner_icon" icon={faCode} />
             <br />
@@ -95,7 +95,7 @@ const Banner = () => {
           </div>
         </Link>
 
-        <Link>
+        <Link to="/aiAutomation">
           <div className="banner_cart_two banner_card">
             <FontAwesomeIcon className="banner_icon" icon={faRobot} />
             <br />
@@ -103,7 +103,7 @@ const Banner = () => {
           </div>
         </Link>
 
-        <Link>
+        <Link to="/websiteDesign">
           <div className="banner_cart_three banner_card">
             <FontAwesomeIcon className="banner_icon" icon={faElementor} />
             <br />
@@ -111,7 +111,7 @@ const Banner = () => {
           </div>
         </Link>
 
-        <Link>
+        <Link to="/videoEditing">
           <div className="banner_cart_four banner_card">
             <FontAwesomeIcon className="banner_icon" icon={faVideo} />
             <br />
@@ -119,7 +119,7 @@ const Banner = () => {
           </div>
         </Link>
 
-        <Link>
+        <Link to="/digitalMarketing">
           <div className="banner_cart_five banner_card">
             <FontAwesomeIcon className="banner_icon" icon={faBullhorn} />
 
@@ -128,7 +128,7 @@ const Banner = () => {
           </div>
         </Link>
 
-        <Link>
+        <Link to="/uiUx">
           <div className="banner_cart_six banner_card">
             <FontAwesomeIcon className="banner_icon" icon={faFigma} />
             <br />
@@ -136,7 +136,7 @@ const Banner = () => {
           </div>
         </Link>
 
-        <Link>
+        <Link to="/graphicDesign">
           <div className="banner_cart_saven banner_card">
             <FontAwesomeIcon className="banner_icon" icon={faDrawPolygon} />
 
@@ -145,7 +145,7 @@ const Banner = () => {
           </div>
         </Link>
 
-        <Link>
+        <Link to="/contentDevelopment">
           <div className="banner_cart_eight banner_card">
             <FontAwesomeIcon className="banner_icon" icon={faBuffer} />
             <br />

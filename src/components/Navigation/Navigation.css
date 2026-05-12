@@ -94,7 +94,7 @@
   font-size: 14px;
   transition: 0.3s;
 }
-.nav_menu li a {
+.nav_menu a {
   text-decoration: none;
   color: white;
 }

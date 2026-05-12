@@ -143,14 +143,17 @@ const Navigation = () => {
           </div>
 
           <ul className={menuOpen ? "nav_menu active" : "nav_menu"}>
-            <li>
-              <FontAwesomeIcon icon={faEnvelope} /> <Link to="/home">Home</Link>
-            </li>
+            <Link to="/home">
+              <li>
+                <FontAwesomeIcon icon={faEnvelope} /> Home
+              </li>
+            </Link>
 
-            <li>
-              <FontAwesomeIcon icon={faEnvelope} />{" "}
-              <Link to="/home#about">About</Link>
-            </li>
+            <Link to="/home#about">
+              <li>
+                <FontAwesomeIcon icon={faEnvelope} /> About
+              </li>
+            </Link>
 
             {/* SERVICES DROPDOWN */}
             <li
@@ -197,16 +200,17 @@ const Navigation = () => {
                 </Link>
               </ul>
             </li>
+            <Link to="/home#portfolio">
+              <li>
+                <FontAwesomeIcon icon={faEnvelope} /> Portfolio
+              </li>
+            </Link>
 
-            <li>
-              <FontAwesomeIcon icon={faEnvelope} />{" "}
-              <Link to="/home#portfolio">Portfolio</Link>
-            </li>
-
-            <li>
-              <FontAwesomeIcon icon={faEnvelope} />{" "}
-              <Link to="/home#footer">Contact</Link>
-            </li>
+            <Link to="/home#footer">
+              <li>
+                <FontAwesomeIcon icon={faEnvelope} /> Contact
+              </li>
+            </Link>
           </ul>
         </div>
       </header>
