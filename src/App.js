@@ -14,6 +14,7 @@ import DigitalMarketing from "./components/DigitalMarketing/DigitalMarketing";
 import UiUx from "./components/UiUx/UiUx";
 import GraphicDesign from "./components/GraphicDesign/GraphicDesign";
 import ContentDevelopment from "./components/ContentDevelopment/ContentDevelopment";
+import PortfolioInnerPage from "./components/PortfolioInnerPage/PortfolioInnerPage";
 
 function App() {
   const router = createBrowserRouter([
@@ -40,6 +41,10 @@ function App() {
         {
           path: "/portfolio",
           element: <Portfolio></Portfolio>,
+        },
+        {
+          path: "/portfolioInnerPage",
+          element: <PortfolioInnerPage></PortfolioInnerPage>,
         },
         {
           path: "/softwareAndSystem",

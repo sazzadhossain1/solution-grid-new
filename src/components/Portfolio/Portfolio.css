@@ -1,17 +1,17 @@
-.portfolioInnrePage_parent_div {
-  margin-top: 150px;
+.portfolio_parent_div {
+  margin-top: 100px;
   margin-bottom: 100px;
 }
-.portfolioInnrePage_parent_div h1 {
+.portfolio_parent_div h1 {
   margin-bottom: 30px;
 }
-.portfolioInnrePage_parent_div button {
+.portfolio_parent_div button {
   border: none;
-  background: #41c6fa;
+  background: #41faf1;
   background: linear-gradient(
     90deg,
-    rgba(65, 198, 250, 1) 15%,
-    rgba(69, 125, 245, 1) 66%
+    rgb(65, 250, 241) 15%,
+    rgb(69, 195, 245) 66%
   );
   color: white;
   padding: 12px;
@@ -20,37 +20,47 @@
   cursor: pointer;
   margin-top: 30px;
 }
-.portfolioInnerPage_grid_div {
+.portfolio_grid_div {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   width: 75%;
   margin: auto;
   gap: 20px;
 }
-.portfolioInnerPage_grid_div div {
+.portfolio_grid_div div {
   /* background-color: rgb(179, 179, 179); */
   border: 1px solid gray;
   padding: 20px;
 }
-.portfolioInnerPage_grid_div div img {
+.portfolio_grid_div div img {
   width: 100%;
   object-fit: contain;
   height: 100%;
 }
 
 @media screen and (max-width: 1250px) {
-  .portfolioInnerPage_grid_div {
+  .portfolio_grid_div {
     grid-template-columns: repeat(3, 1fr);
     width: 95%;
   }
 }
 @media screen and (max-width: 750px) {
-  .portfolioInnerPage_grid_div {
+  .portfolio_grid_div {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+@media screen and (max-width: 624px) {
+  .portfolio_parent_div button {
+    width: 50%;
+  }
+}
 @media screen and (max-width: 450px) {
-  .portfolioInnerPage_grid_div {
+  .portfolio_grid_div {
     grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (max-width: 350px) {
+  .portfolio_parent_div button {
+    width: 70%;
   }
 }
