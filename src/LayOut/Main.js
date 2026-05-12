@@ -1,6 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Navigation from "../components/Navigation/Navigation";
-import { Outlet, useLocation } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import Footer from "../components/Footer/Footer";
 
 const Main = () => {

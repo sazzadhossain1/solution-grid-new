@@ -1,7 +1,7 @@
 .forthSection_parent_div {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  align-items: center;
+  /* align-items: center; */
   width: 75%;
   margin: auto;
   gap: 50px;

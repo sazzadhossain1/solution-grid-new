@@ -13,13 +13,18 @@ const ForthSection = () => {
           enhancing your business through information technology.
         </p>
         <p>
-          We are best known for quality Software Development, App Development,
-          Website Design & Development, Graphic Design, Video Editing as well as
-          Digital Marketing Services along with Search Engine Optimization.
+          We are best known for quality Software Development, Ai Automation, App
+          Development, Website Design & Development, Graphic Design, Video
+          Editing as well as Digital Marketing Services along with Search Engine
+          Optimization.
         </p>
         <p>
           We know that your growth is our growth. So we dedicate ourselves to
           your growth.
+        </p>
+        <p>
+          Headquarted in the United Kingdom, we have expanded our developer team
+          in Asia to provide top-notch service at an affordable cost.
         </p>
       </div>
       <div>

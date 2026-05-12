@@ -32,6 +32,9 @@
   margin-bottom: 10px;
   margin-top: 10px;
 }
+.footer_qrCode {
+  width: 100px;
+}
 .footerMap {
   width: 100%;
 }

@@ -5,10 +5,10 @@
   width: 100%;
 }
 .thirdSection_text_div {
-  text-align: left;
+  text-align: center;
   width: 40%;
   margin: auto;
-  margin-top: -445px;
+  margin-top: -440px;
   background-color: white;
   padding: 30px;
   position: relative;
@@ -20,6 +20,7 @@
   color: #007eff;
   font-size: 25px;
   margin-bottom: 20px;
+  text-align: left;
 }
 .thirdSection_first_p {
   font-weight: 700;
@@ -37,6 +38,8 @@
 .thirdSection_text_div ul li {
   margin-bottom: 20px;
   color: rgb(75, 75, 75);
+  text-align: left;
+  font-size: 18px;
 }
 .thirdSection_text_div ul li::marker {
   color: #41c6fa;

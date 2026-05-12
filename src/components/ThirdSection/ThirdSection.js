@@ -76,53 +76,21 @@ const ThirdSection = () => {
           creativity
         </h2>
 
-        {/* <p className="thirdSection_first_p">
-          Solutiongrid.com takes the stress out of technology so you can focus
-          on what matters most, growing your business. From complex software
-          development to modern websites, AI automation, graphics, and video
-          editing, we handle it all with precision and care.
-        </p>
-
-        <p className="thirdSection_second_p">
-          No more dealing with confusing tech or inflated costs. Our team
-          delivers high-quality, reliable solutions at rates that make sense,
-          without cutting corners. Whether you’re a startup or an established
-          business, we simplify the process and bring your ideas to life
-          efficiently
-        </p>
-
-        <p className="thirdSection_third_p">
-          Where technology meets artistic imagination, Solutiongrid blends
-          innovation with creativity to build solutions that not only work
-          flawlessly but also stand out.
-        </p> */}
-
         <ul>
           <li>
-            Solutiongrid.com takes the stress out of technology so you can focus
-            on what matters most, growing your business. From complex software
-            development to modern websites, AI automation, graphics, and video
-            editing, we handle it all with precision and care.
+            We take the stress out of technology so you can focus on your
+            business.
+          </li>
+          <li>We work with precision and care.</li>
+          <li>No more dealing with confusing tech or inflated costs.</li>
+          <li>
+            Whether you’re a startup or an established business, we simplify the
+            process and bring your ideas to life efficiently.
           </li>
           <li>
-            No more dealing with confusing tech or inflated costs. Our team
-            delivers high-quality, reliable solutions at rates that make sense,
-            without cutting corners. Whether you’re a startup or an established
-            business, we simplify the process and bring your ideas to life
-            efficiently.
+            Solutiongrid blends innovation with creativity to build solutions
+            that not only work flawlessly but also stand out.
           </li>
-          <li>
-            Where technology meets artistic imagination, Solutiongrid blends
-            innovation with creativity to build solutions that not only work
-            flawlessly but also stand out.
-          </li>
-          {/* <li>
-            ISO/IEC/IEEE-29119 for high-quality approach to software testing
-          </li>
-          <li>
-            Statutory HSE regulations and standards to keep our colleagues and
-            wider public safe of harm’s way
-          </li> */}
         </ul>
 
         {/* 🔘 BUTTON */}

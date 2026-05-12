@@ -5,6 +5,21 @@
 .portfolioInnrePage_parent_div h1 {
   margin-bottom: 30px;
 }
+.portfolioInnrePage_parent_div button {
+  border: none;
+  background: #41c6fa;
+  background: linear-gradient(
+    90deg,
+    rgba(65, 198, 250, 1) 15%,
+    rgba(69, 125, 245, 1) 66%
+  );
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  width: 20%;
+  cursor: pointer;
+  margin-top: 30px;
+}
 .portfolioInnerPage_grid_div {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

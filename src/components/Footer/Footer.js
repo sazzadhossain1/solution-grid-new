@@ -16,7 +16,6 @@ import {
   faLocation,
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
-import footerLogo from "../../accets/logo/logo.png";
 
 const Footer = () => {
   return (
@@ -74,7 +73,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <img src={QrCode} alt="" />
+            <img className="footer_qrCode" src={QrCode} alt="" />
           </div>
         </div>
       </div>
@@ -83,7 +82,9 @@ const Footer = () => {
         <div className="footer_flex_parent_div">
           <div className="footer_flex_div">
             <div className="footer_media_div">
-              <FontAwesomeIcon className="facebook" icon={faFacebook} />
+              <Link to="https://www.facebook.com/solutiongrid" target="_blank">
+                <FontAwesomeIcon className="facebook" icon={faFacebook} />
+              </Link>
               <FontAwesomeIcon className="twitter" icon={faTwitter} />
               <FontAwesomeIcon className="linkdin" icon={faLinkedin} />
               <FontAwesomeIcon className="instagram" icon={faInstagram} />

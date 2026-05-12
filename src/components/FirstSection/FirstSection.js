@@ -107,19 +107,18 @@ const FirstSection = () => {
           </svg>
           <img className="firstPhoto" src={firstPhoto} alt="" />
           <div className="first_section_cart_text_div">
-            <h3>AFRE YOU A START-UP?</h3>
+            <h3>ARE YOU A START-UP?</h3>
             <p>
               Allow us to set you up with a professional website and add value
               to your branding.
             </p>
-            <Link>
-              <button
-                className="firstSection_btn1"
-                onClick={() => setOpenModal(true)}
-              >
-                Get a Free Consultaion
-              </button>
-            </Link>
+
+            <button
+              className="firstSection_btn1"
+              onClick={() => setOpenModal(true)}
+            >
+              Get a Free Consultaion
+            </button>
           </div>
         </div>
 
@@ -154,14 +153,13 @@ const FirstSection = () => {
               Avoid human error and have everything automated so your support
               service can be 24/7.
             </p>
-            <Link>
-              <button
-                className="firstSection_btn2"
-                onClick={() => setOpenModal(true)}
-              >
-                Get a Free Consultaion
-              </button>
-            </Link>
+
+            <button
+              className="firstSection_btn2"
+              onClick={() => setOpenModal(true)}
+            >
+              Get a Free Consultaion
+            </button>
           </div>
         </div>
       </div>

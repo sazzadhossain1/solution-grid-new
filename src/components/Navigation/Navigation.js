@@ -199,8 +199,7 @@ const Navigation = () => {
             </li>
 
             <li>
-              <FontAwesomeIcon icon={faEnvelope} />{" "}
-              <Link to="/portfolio">Portfolio</Link>
+              <FontAwesomeIcon icon={faEnvelope} /> <Link to="">Portfolio</Link>
             </li>
 
             <li>

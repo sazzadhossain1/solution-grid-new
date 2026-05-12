@@ -12,6 +12,9 @@ import eight from "../../accets/portfolioPhoto/8.jpg";
 import nine from "../../accets/portfolioPhoto/9.png";
 import ten from "../../accets/portfolioPhoto/10.png";
 import elaven from "../../accets/portfolioPhoto/11.png";
+import twelve from "../../accets/portfolioPhoto/12.jpg";
+import { Link } from "react-router-dom";
+
 const Portfolio = () => {
   return (
     <div className="portfolioInnrePage_parent_div">
@@ -28,9 +31,9 @@ const Portfolio = () => {
           <img src={saven} alt="" />
         </div>
         <div>
-          <img src={three} alt="" />
+          <img src={twelve} alt="" />
         </div>
-        <div>
+        {/* <div>
           <img src={five} alt="" />
         </div>
 
@@ -52,8 +55,11 @@ const Portfolio = () => {
         </div>
         <div>
           <img src={elaven} alt="" />
-        </div>
+        </div> */}
       </div>
+      <Link>
+        <button>See More</button>
+      </Link>
     </div>
   );
 };
